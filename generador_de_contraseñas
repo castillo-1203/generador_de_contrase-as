@@ -1,0 +1,10 @@
+import random
+a=int(input("Introdusca la longitud de la contraseña: "))
+b="+-/*!&$#?=@abcdefghijklnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890"
+hola="11"
+d=0
+e=71
+c=""
+for i in range(a):
+    c+=random.choice(b)
+print(c)
